@@ -38,8 +38,10 @@
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search-button  "><i data-feather="search"></i></a>
-        <a href="#" id="shop"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shoping-card-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
 
@@ -49,6 +51,36 @@
         <label for="search-box"><i data-feather="search"></i></label>
       </div>
       <!-- search form end -->
+
+      <!-- shoping card start -->
+      <div class="shoping-card">
+        <div class="card-item">
+          <img src="produk.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="card-item">
+          <img src="produk.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="card-item">
+          <img src="produk.jpg" alt="product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+
+      <!-- shoping card end -->
     </nav>
 
     <!-- navbaar end -->
@@ -143,7 +175,9 @@
         <div class="product-card">
           <div class="product-icon">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#"><i data-feather="eye"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
           </div>
           <div class="product-image">
             <img src="produk.jpg" alt="produk ayam mentah" />
@@ -151,19 +185,22 @@
           <div class="product-content">
             <h3>Dada Boneless</h3>
             <div class="product-stars">
-              <i data-feather="star"></i>
-              <i data-feather="star"></i>
-              <i data-feather="star"></i>
-              <i data-feather="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
               <i data-feather="star"></i>
             </div>
             <div class="product-price">IDR 55K/kg <span>IDR 60K/kg</span></div>
           </div>
         </div>
+
         <div class="product-card">
           <div class="product-icon">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="#"><i data-feather="eye"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
           </div>
           <div class="product-image">
             <img src="produk.jpg" alt="produk ayam mentah" />
@@ -171,10 +208,56 @@
           <div class="product-content">
             <h3>Dada Boneless</h3>
             <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
               <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 55K/kg <span>IDR 60K/kg</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="produk.jpg" alt="produk ayam mentah" />
+          </div>
+          <div class="product-content">
+            <h3>Dada Boneless</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
               <i data-feather="star"></i>
-              <i data-feather="star"></i>
-              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 55K/kg <span>IDR 60K/kg</span></div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icon">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="produk.jpg" alt="produk ayam mentah" />
+          </div>
+          <div class="product-content">
+            <h3>Dada Boneless</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
               <i data-feather="star"></i>
             </div>
             <div class="product-price">IDR 55K/kg <span>IDR 60K/kg</span></div>
@@ -233,16 +316,47 @@
         <a href="https://www.facebook.com/"><i data-feather="facebook"></i></a>
       </div>
       <div class="links">
-        <a href="home">Home</a>
-        <a href="about">Tentang Kami</a>
-        <a href="product">Produk</a>
-        <a href="contact">Kontak</a>
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">Kontak</a>
       </div>
       <div class="credit">
         <p>created by <a href="#">dandialifutama</a>. | &copy;2023.</p>
       </div>
     </footer>
     <!-- footer section end -->
+
+    <!-- Modal Box Item start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="produk.jpg" alt="product 1" />
+          <div class="product-content">
+            <h3>product 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+              molestias ex reprehenderit laborum, enim quas labore, sed veniam
+              tempore vitae repudiandae ab quos, sapiente numquam.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star" class="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 55K/kg <span>IDR 60K/kg</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i
+              ><span>tambahkan ke keranjang</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item end -->
 
     <!-- feather icon -->
     <script>
