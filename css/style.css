@@ -560,6 +560,9 @@ footer .credit {
   height: 16rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  padding: 2rem;
+  object-fit: cover;
+  box-sizing: border-box;
 }
 
 .modal-content p {
