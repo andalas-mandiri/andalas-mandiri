@@ -560,9 +560,6 @@ footer .credit {
   height: 16rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
-  padding: 2rem;
-  object-fit: cover;
-  box-sizing: border-box;
 }
 
 .modal-content p {
@@ -678,10 +675,5 @@ footer .credit {
   .modal-content {
     flex-wrap: wrap;
     flex-direction: column;
-  }
-  .modal-content img {
-    margin: auto;
-    width: 80%;
-    overflow: hidden;
   }
 }
