@@ -674,6 +674,5 @@ footer .credit {
   }
   .modal-content {
     flex-wrap: wrap;
-    flex-direction: column;
   }
 }
