@@ -315,7 +315,8 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  animation: rotate360 120s linear infinite; /* Animation properties: 4 seconds duration, linear timing function, infinite loop */
+  animation: rotate 10s linear infinite alternate; /* Animation properties: 4 seconds duration, linear timing function, infinite loop */
+  filter: drop-shadow(0 5px 5px rgba(255, 255, 255, 0.8));
   /* margin-top: 7rem; */
   /* padding: 1rem; */
   /* box-sizing: border-box; */
@@ -324,12 +325,12 @@ body {
 }
 
 /* Define the keyframes for the rotation animation */
-@keyframes rotate360 {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(35deg);
   }
 }
 
