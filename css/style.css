@@ -409,6 +409,10 @@ body {
 
 .product .product-image img {
   height: 25rem;
+  max-width: 100%; /* make sure the image doesn't exceed parent's width */
+  height: auto; /* maintain the image's aspect ratio */
+  display: block; /* remove any extra space below the image */
+  margin: auto;
 }
 
 .product .product-content h3 {
