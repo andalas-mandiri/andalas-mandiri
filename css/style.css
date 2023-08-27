@@ -674,5 +674,11 @@ footer .credit {
   }
   .modal-content {
     flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .modal-content img {
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
   }
 }
