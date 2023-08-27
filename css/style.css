@@ -396,7 +396,9 @@ body {
   width: 4rem;
   height: 4rem;
   color: #fff;
-  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+
   border: 1px solid #666;
   display: flex;
   justify-content: center;
